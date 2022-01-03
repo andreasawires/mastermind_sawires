@@ -32,7 +32,7 @@ void inserimentoColori(char tentativo[4][10])
     scanf("%s", tentativo[i]);
 }
 
-// calcolo dello punteggio
+// funzione per calcolo dello punteggio
 void calcolaPunteggio(char codiceSegreto[4][10], char tentativo[4][10], int *neri, int *bianchi)
 {
   int controlloCodiceSegreto[4] = {1,1,1,1}, controlloTentativo[4] = {1,1,1,1};
@@ -62,6 +62,7 @@ void calcolaPunteggio(char codiceSegreto[4][10], char tentativo[4][10], int *ner
   }
 }
 
+// funzione per mostare il punteggio all'utente
 void mostraPunteggio(char tentativo[4][10], int neri, int bianchi) 
 {
   printf("\nTetativo\t\t\t\tPunteggio\n");   
