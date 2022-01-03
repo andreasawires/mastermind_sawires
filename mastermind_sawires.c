@@ -3,6 +3,16 @@
 #include <stdlib.h>
 #include <time.h>
 
+// ordine delle funzioni
+// 1- creazione di un codice random 
+// 2- prendere il tentativo dello user
+// 3- calcolo punteggio
+// 4- mostrare punteggio
+// 5- controllare il punteggio 
+// se il punteggio è 4 neri allora lo user ha vinto
+// 6- controllare il numero di tentativi
+// se il numero di tentativi è maggiore di 12 allora lo user ha perso: game over
+
 // creazione di un codice random
 void creazioneCodice(char codiceSegreto[4][10])
 {
